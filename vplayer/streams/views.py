@@ -24,6 +24,10 @@ def create_me(request):
         tree = ET.parse(ippath)
         root = tree.getroot()
         c=1
+        cell_format = outworkbook.add_format({'bold': True})
+        cell_format.set_align('center')
+        cell_format.set_font_name('Cambria')
+
 
 
         
